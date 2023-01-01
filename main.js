@@ -5,6 +5,6 @@ app.get("/", function (req, res) {
   res.send("Docke app CHANGES");
 });
 
-app.listen(3000, () => {
+app.listen(80, () => {
   console.log("listening");
 });
